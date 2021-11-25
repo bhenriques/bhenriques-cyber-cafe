@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Custom css -->
+  <link rel="stylesheet" href="./standard.css" type="text/css" />
+  <link rel="stylesheet" href="./about.css" type="text/css" />
+
+  <title>Cyber Cafe | About</title>
+</head>
+
+<body>
+
+  <!-- header -->
+  <div class="header">
+    <!-- header -->
+    <img src="./header.jpg" class="img-fluid" id="header-img" alt="display of bakery items" />
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Cyber Cafe</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html">menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pictures.html">pictures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./catering.html">catering</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./events.html">events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./about.html">about</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- container -->
+  <div class="container">
+    <!-- description and form -->
+    <div class="description-form">
+      <!-- description -->
+      <div class="description">
+        <h1>We are Cyber Café</h1>
+        <p>Check out our hours to see when you can stop by, and fill out the form if you have any questions!</p>
+        <!-- hours and locations -->
+        <div class="hours-locations">
+          <div class="hours">
+            <h2>Hours</h2>
+            <table class="table table-borderless">
+              <tbody>
+                <tr>
+                  <td>Monday</td>
+                  <td>Closed</td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>8AM - 10PM</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>8AM - 10PM</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>8AM - 10PM</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>8AM - 10PM</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>8AM - 10PM</td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>10AM - 10PM</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="locations">
+            <h2>Locations</h2>
+            <p>333 Lucky St.</p>
+            <p>Institute Manor, NY</p>
+            <p>10609</p>
+          </div>
+        </div>
+      </div>
+      <!-- form -->
+      <div class="form">
+        <h2>Contact Us</h2>
+        <form class="g-3">
+          <div>
+            <label for="nameInput" class="form-label">Full Name</label>
+            <input type="text" class="form-control name" id="nameInput" required>
+          </div>
+          <div>
+            <label for="emailInput" class="form-label">Email</label>
+            <input type="email" class="form-control email" id="emailInput" required>
+          </div>
+          <div>
+            <label for="messageInput" class="form-label">Message</label>
+            <textarea class="form-control request" id="messageInput" placeholder="Short description of what you need"
+              required></textarea>
+          </div>
+          <div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

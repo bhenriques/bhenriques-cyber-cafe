@@ -1,0 +1,75 @@
+
+/* descripton and form */
+.description-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.description > p:nth-child(2) {
+    width: 50vh;
+}
+
+/* hours and locations */
+.hours-locations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table {
+    color: #bcbcbc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* form */
+label {
+    color: #BCBCBC;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name,
+.email {
+    height: 30px;
+    width: 50vh;
+    margin-bottom: 20px;
+}
+
+.request {
+    height: 220px;
+    width: 50vh;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .description-form {
+        flex-direction: column;
+    }
+
+    .hours-locations {
+        flex-direction: column;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    .name,
+    .email {
+        height: 25%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .request {
+        height: 20vh;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

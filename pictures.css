@@ -1,0 +1,14 @@
+
+/* header */
+h2 {
+    margin: 30px 0;
+    text-align: center;
+}
+
+/* images */
+.bakery-images,
+.event-images,
+.customer-images {
+    width: 100vw;
+    height: 50vh;
+}

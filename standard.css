@@ -1,0 +1,79 @@
+
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital@0;1&display=swap');
+
+/* set css variables */
+:root {
+    --background: #333333;
+    --header-color: #8CFF94;
+    --paragraph-color: #BCBCBC;
+    --header-1: 30px;
+    --header-2: 20px;
+    --paragraph: 15px;
+    --header-font: 'Courier Prime', monospace;
+    --paragraph-font: 'Roboto Mono', monospace;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--background);
+  }
+
+  h1 {
+    font-family: var(--header-font);
+    font-size: var(--header-1);
+    color: var(--header-color);
+  }
+
+  h2 {
+    font-family: var(--header-font);
+    font-size: var(--header-2);
+    color: var(--header-color);
+  }
+
+  p {
+    font-family: var(--paragraph-font);
+    font-size: var(--paragraph);
+    color: var(--paragraph-color);
+  }
+
+  /* navigation bar styling */
+
+  .navbar {
+    font-family: var(--header-font);
+  }
+
+  span {
+    color: var(--paragraph-color);
+  }
+
+  .nav-link {
+    float: left;
+    color: var(--paragraph-color);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .navbar-toggler {
+    border-color: var(--paragraph-color);
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .nav-link:hover {
+    color: var(--header-color);
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  a.active {
+    color: var(--header-color);
+    font-weight: 700;
+  }
